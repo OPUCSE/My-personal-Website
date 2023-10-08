@@ -22,7 +22,7 @@ h2{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 .top-header{
     background-image: url("images/header-bg.png");
@@ -51,4 +51,18 @@ section{
 .my-work{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+}
+.center-line{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+
+}
+.my-work::after{
+    content: "";
+    clear: both;
+    display: table;
 }
